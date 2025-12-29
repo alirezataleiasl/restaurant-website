@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-playfair), serif;
+  --font-sans: var(--font-vazir), sans-serif;
+
+  --color-brand-black: #111111;
+  --color-brand-white: #fcfcfc;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-[#fcfcfc] text-[#111];
+  }
+}
